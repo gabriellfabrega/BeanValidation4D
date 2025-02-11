@@ -6,7 +6,7 @@ O BeanValidation4D é uma biblioteca para validação simplificada de objetos e 
 
 🚀 Recursos
 
-####✅ Validações via atributos: 
+#### ✅ Validações via atributos: 
  - CpfCnpj
  - Email
  - NaoEmBranco
