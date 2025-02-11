@@ -2,7 +2,7 @@
 
 [![](https://raw.githubusercontent.com/gabriellfabrega/BeanValidation4D/refs/heads/main/logo.png)](https://raw.githubusercontent.com/gabriellfabrega/BeanValidation4D/refs/heads/main/logo.png)
 
-O BeanValidator4D é uma biblioteca para validação simplificada de objetos e DTOs em Delphi, utilizando RTTI com atributes. Inspirado no Bean Validation do Spring Boot.
+O BeanValidation4D é uma biblioteca para validação simplificada de objetos e DTOs em Delphi, utilizando RTTI com atributes. Inspirado no Bean Validation do Spring Boot.
 
 🚀 Recursos
 
@@ -20,7 +20,7 @@ O BeanValidator4D é uma biblioteca para validação simplificada de objetos e D
 
 📌 Exemplo de Uso
 
-####Instale a biblioteca via [Boss](https://github.com/HashLoad/boss "")
+#### Instale a biblioteca via [Boss](https://github.com/HashLoad/boss "")
 ```bash
 boss install https://github.com/gabriellfabrega/BeanValidation4D
 ```
