@@ -22,7 +22,7 @@ var
 implementation
 
 uses
-  BeanValidation4D.validador,
+  BeanValidation4D.Validador.Objeto,
   BeanValidation4D.samples.dto.pessoa,
   BeanValidation4D.exceptions.ValidacaoEntidadeException;
 
@@ -41,7 +41,9 @@ begin
     LPessoa.CpfCnpj := '000.000.000-00';
     LPessoa.Email := 'gabriel.fabrega@outlook.com';
     try
-      TBeanValidation4DValidador<TPessoa>.Validar(LPessoa);
+      TBeanValidation4DValidador<TPessoa>
+        .New
+        .Validar(LPessoa);
     except on E:EValidacaoEntidadeException do
       ShowMessage('Sua tratativa aqui ' + e.Message);
     end;

@@ -105,19 +105,22 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="dto\BeanValidation4D.samples.dto.pessoa.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.CpfCnpj.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.Email.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.EntidadeValida.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.NaoEmBranco.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.Positivo.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.PositivoOuZero.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.TamanhoFixo.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.TamanhoMaximo.pas"/>
-        <DCCReference Include="..\atributos\BeanValidation4D.atributos.TamanhoMinimo.pas"/>
-        <DCCReference Include="..\exceptions\BeanValidation4D.exceptions.ValidacaoEntidadeException.pas"/>
-        <DCCReference Include="..\utils\BeanValidation4D.utils.Util.pas"/>
-        <DCCReference Include="..\validador\BeanValidation4D.validador.pas"/>
+        <DCCReference Include="dto\BeanValidation4D.samples.dto.pessoa.pas">
+            <Form>$R *.res</Form>
+        </DCCReference>
+        <DCCReference Include="..\src\exceptions\BeanValidation4D.exceptions.ValidacaoEntidadeException.pas"/>
+        <DCCReference Include="..\src\utils\BeanValidation4D.utils.Util.pas"/>
+        <DCCReference Include="..\src\validador\BeanValidation4D.validador.objeto.pas"/>
+        <DCCReference Include="..\src\validador\BeanValidation4D.Validador.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.NaoEmBranco.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.PositivoOuZero.pas"/>
+        <DCCReference Include="..\src\atributos\BeanValidation4D.Atributos.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.Positivo.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.TamanhoFixo.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.Email.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.CpfCnpj.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.TamanhoMaximo.pas"/>
+        <DCCReference Include="..\src\validador\impl\BeanValidation4D.Validador.TamanhoMinimo.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

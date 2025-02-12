@@ -3,15 +3,7 @@ unit BeanValidation4D.samples.dto.pessoa;
 interface
 
 uses
-  BeanValidation4D.atributos.EntidadeValida,
-  BeanValidation4D.atributos.NaoEmBranco,
-  BeanValidation4D.atributos.CpfCnpj,
-  BeanValidation4D.atributos.PositivoOuZero,
-  BeanValidation4D.atributos.Positivo,
-  BeanValidation4D.atributos.TamanhoMinimo,
-  BeanValidation4D.atributos.TamanhoMaximo,
-  BeanValidation4D.atributos.TamanhoFixo,
-  BeanValidation4D.atributos.Email;
+  BeanValidation4D.Atributos;
 
 type
   [EntidadeValida]
@@ -40,8 +32,8 @@ type
     property Idade: Integer read FIdade write FIdade;
 
     [Email]
-    [TamanhoMinimo(10)]
-    [TamanhoMaximo(60)]
+    [TamanhoMinimo(10,false)]
+    [TamanhoMaximo(60,false)]
     property Email: string read FEmail write FEmail;
   end;
 

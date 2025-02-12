@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 211
-  ClientWidth = 378
+  ClientHeight = 210
+  ClientWidth = 374
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,7 +15,7 @@ object Form1: TForm1
     AlignWithMargins = True
     Left = 6
     Top = 6
-    Width = 366
+    Width = 362
     Height = 46
     Margins.Left = 6
     Margins.Top = 6
@@ -25,6 +25,6 @@ object Form1: TForm1
     Caption = 'Validar'
     TabOrder = 0
     OnClick = btnValidarClick
-    ExplicitWidth = 362
+    ExplicitWidth = 358
   end
 end
